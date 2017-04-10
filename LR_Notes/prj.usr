@@ -1,0 +1,57 @@
+[General]
+Type=CsNet
+RecordedProtocol=
+DefaultCfg=default.cfg
+AppName=
+BuildTarget=
+ParamRightBrace=}
+ParamLeftBrace={
+NewFunctionHeader=1
+LastActiveAction=Actions
+CorrInfoReportDir=
+LastResultDir=result1
+DevelopTool=Vugen
+ActionLogicExt=action_logic
+MajorVersion=8
+MinorVersion=1
+ParameterFile=%TOBEREPLACE%.prm
+GlobalParameterFile=
+RunType=VsNetCom
+LastModifyVer=11.0.0.0
+[Actions]
+vuser_init=VuserClass.cs
+Actions=VuserClass.cs
+vuser_end=VuserClass.cs
+[ProtocolsVersion]
+CsNet=11.0.0.0
+[RunLogicFiles]
+Default Profile=default.usp
+[StateManagement]
+1=1
+4=0
+9=0
+10=0
+11=0
+12=0
+17=0
+18=0
+20=0
+21=0
+CurrentState=1
+VuserStateHistory= 0 65536 65552
+LastReplayStatus=1
+[ExtraFiles]
+%TOBEREPLACE%.dll=
+LoadRunner.dll=
+[Recorded Actions]
+vuser_init=0
+Actions=0
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Actions=1
+vuser_end=1
+[Modified Actions]
+vuser_init=0
+Actions=0
+vuser_end=0
